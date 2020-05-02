@@ -6,7 +6,6 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import com.example.konsulstudent.*
 import kotlinx.android.synthetic.main.activity_create_profile_mhs.*
-import kotlinx.android.synthetic.main.activity_signin.*
 
 class CreateProfileMhs : AppCompatActivity() {
 
@@ -45,7 +44,7 @@ class CreateProfileMhs : AppCompatActivity() {
         btnConfirmMhs.setOnClickListener{
             val nama = iNamaMhs.text
             val nrp = iNrp.text
-            val email = iEmailDs.text
+            val email = iEmailMhs.text
             val fak = comboFakultas.selectedItem.toString()
             val angkatan = comboThnAngkatan.selectedItem.toString()
         }

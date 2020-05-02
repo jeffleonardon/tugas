@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@android:color/holo_blue_light"
+    android:padding="20dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:src="@drawable/ic_mood_black_24dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+    </androidx.appcompat.widget.AppCompatImageView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Karma Rx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/secular_one"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp">
+    </androidx.appcompat.widget.AppCompatTextView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="karmarx@gmail.com"
+        android:fontFamily="@font/secular_one"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        >
+    </androidx.appcompat.widget.AppCompatTextView>
+
+</LinearLayout>

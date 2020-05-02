@@ -12,7 +12,7 @@ class ViewProfileMhs : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_profile_mhs)
 
-        btnEdit.setOnClickListener{
+        btnEditMhs.setOnClickListener{
             val i = Intent(this, UpdateProfileMhs::class.java)
             startActivity(i)
         }

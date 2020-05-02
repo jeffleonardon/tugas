@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".Mahasiswa.Profile.CreateProfileMhs">
 
+    <Spinner
+        android:id="@+id/comboFakultas"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/secular_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iEmailMhs" />
+
     <Button
         android:id="@+id/btnConfirmMhs"
         android:layout_width="0dp"
@@ -15,8 +28,22 @@
         android:text="Save"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/comboThnAngkatan" />
+
+    <Spinner
+        android:id="@+id/comboThnAngkatan"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/secular_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comboFakultas" />
 
     <EditText
         android:id="@+id/iNamaMhs"
@@ -26,8 +53,7 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
-        android:fontFamily="@font/secular_one"
-        android:hint="Name"
+        android:hint="Nama"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,10 +67,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
-        android:fontFamily="@font/secular_one"
-        android:hint="NRP"
+        android:hint="Nrp"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iNamaMhs" />
 
@@ -56,35 +82,11 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
-        android:fontFamily="@font/secular_one"
         android:hint="Email"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iNrp" />
-
-    <Spinner
-        android:id="@+id/comboFakultas"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/secular_one"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iEmailMhs" />
-
-    <Spinner
-        android:id="@+id/comboThnAngkatan"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/secular_one"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/comboFakultas" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

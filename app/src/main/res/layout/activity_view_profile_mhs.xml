@@ -7,10 +7,10 @@
     tools:context=".Mahasiswa.Profile.ViewProfileMhs">
 
     <Button
-        android:id="@+id/btnEdit"
+        android:id="@+id/btnEditMhs"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="362dp"
+        android:layout_marginTop="320dp"
         android:layout_marginBottom="320dp"
         android:fontFamily="@font/secular_one"
         android:text="Edit"

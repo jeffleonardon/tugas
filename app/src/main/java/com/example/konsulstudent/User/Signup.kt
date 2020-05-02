@@ -20,10 +20,10 @@ class Signup : AppCompatActivity() {
         status.add("Dosen")
         val dataAdapter: ArrayAdapter<String> = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, status)
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        comboStatus.setAdapter(dataAdapter)
+        combosuStatus.setAdapter(dataAdapter)
 
         btnSignup.setOnClickListener{
-            if(comboStatus.selectedItem.equals("Mahasiswa")){
+            if(combosuStatus.selectedItem.equals("Mahasiswa")){
                 val i = Intent(this, com.example.konsulstudent.Mahasiswa.Profile.CreateProfileMhs::class.java)
                 startActivity(i)
             }

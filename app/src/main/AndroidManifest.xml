@@ -9,28 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dosen.CreateMatkul"></activity>
         <activity android:name=".Dosen.Profile.ViewProfileDs" />
         <activity android:name=".Dosen.Profile.UpdateProfileDs" />
         <activity android:name=".Dosen.Profile.CreateProfileDs" />
         <activity android:name=".Mahasiswa.Profile.ViewProfileMhs" />
         <activity android:name=".Mahasiswa.Profile.UpdateProfileMhs" />
         <activity android:name=".Mahasiswa.Profile.CreateProfileMhs" />
-        <activity android:name=".Dosen.ProfilDosen" />
         <activity android:name=".Dosen.HistoryDosen" />
-        <activity android:name=".Dosen.DashboardDosen" />
-        <activity android:name=".Mahasiswa.HistoryMahasiswa" />
-        <activity android:name=".Mahasiswa.ProfilMahasiswa" />
-        <activity android:name=".Mahasiswa.DashboardMahasiswa" />
-        <activity android:name=".User.Signup" />
-        <activity android:name=".User.Signin" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Dosen.DashboardDosen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Mahasiswa.HistoryMahasiswa" />
+        <activity android:name=".Mahasiswa.DashboardMahasiswa" />
+        <activity android:name=".User.Signup" />
+        <activity android:name=".User.Signin" />
+        <activity android:name=".MainActivity"/>
 
         <meta-data
             android:name="preloaded_fonts"

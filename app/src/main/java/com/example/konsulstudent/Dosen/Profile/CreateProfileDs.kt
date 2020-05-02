@@ -11,9 +11,9 @@ class CreateProfileDs : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_profile_ds)
 
-        btnConfirmMhs.setOnClickListener{
-            val nama = iNamaMhs.text
-            val npk = iNrp.text
+        btnConfirmDs.setOnClickListener{
+            val nama = iNamaDs.text
+            val npk = iNpk.text
             val email = iEmailDs.text
             //listMatkul = com.example.konsulstudent.Dosen.CreateMatkul
         }

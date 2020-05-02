@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:contentPadding="8dp"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:layout_width="300dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/JudulCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/secular_one"
+            android:text="Jumlah Pertemuan"
+            android:textSize="18sp">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/CountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/JudulCard"
+            android:layout_alignParentTop="@+id/JudulCard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/secular_one"
+            android:text="50"
+            android:textSize="30sp">
+
+        </com.google.android.material.textview.MaterialTextView>
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+</androidx.cardview.widget.CardView>

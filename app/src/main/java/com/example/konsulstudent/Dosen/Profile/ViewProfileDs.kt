@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.konsulstudent.*
-import kotlinx.android.synthetic.main.activity_view_profile_ds.*
+import kotlinx.android.synthetic.main.activity_update_profile_ds.*
 
 class ViewProfileDs : AppCompatActivity() {
 
@@ -12,7 +12,7 @@ class ViewProfileDs : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_profile_ds)
 
-        btnEdit.setOnClickListener{
+        btnUpdateDs.setOnClickListener{
             val i = Intent(this, com.example.konsulstudent.Dosen.Profile.UpdateProfileDs::class.java)
             startActivity(i)
         }
